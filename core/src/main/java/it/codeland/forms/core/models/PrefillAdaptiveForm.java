@@ -32,13 +32,13 @@ public class PrefillAdaptiveForm implements DataXMLProvider {
   @Override
   public String getServiceDescription() {
 
-    return "Custom AEM Forms PreFill Service";
+    return "Custom AEM Forms PreFill Servic";
   }
 
   @Override
   public String getServiceName() {
 
-    return "CustomAemFormsPrefillService";
+    return "CustomAemFormsPrefillServic";
   }
 
   @Override
@@ -76,6 +76,14 @@ public class PrefillAdaptiveForm implements DataXMLProvider {
         emailElement.setTextContent(loggedinUser.getProperty("profile/email")[0].getString());
         rootElement.appendChild(emailElement);
         log.debug("Created email Element");
+
+      }
+
+      if (loggedinUser.hasProperty("profile/title")) {
+        Element titleElement = doc.createElement("title");
+        titleElement.setTextContent(loggedinUser.getProperty("profile/title")[0].getString());
+        rootElement.appendChild(titleElement);
+        log.debug("Created Title Element");
 
       }
 
